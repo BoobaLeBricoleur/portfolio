@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('../CSS/navbar.css');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto mono', 'monospace';
+}
+
+
+body{
+    background: #013a63;
+    height: 0 ;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.accueil{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto 0;
+    gap: 15px;
+    row-gap: 120px;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 1%;
+    margin-left: 1%;
+    
+}
+
+.tableauComp{
+    display:flex;
+    margin: 75px auto;
+    flex-direction: column;
+    background-color: #01538f;
+    border-radius: 2rem;
+    box-shadow: 49px 49px 24px 0px rgba(0, 0, 0, 0.37);
+    width: 65vw;
+}
+
+.tableau{
+    margin: 30px;
+    width: 60vw;
+    height: 120vh;
+    border-radius: 2rem;    
+}
+
+.titreTab{
+    display: flex;
+    margin: 10px auto;
+}
+
+.tableauDeCompetences{
+    display: flex;
+    margin: auto;
+    
+}
+
+.leContenu{
+    height:3300px   ;
+}
+
+.veille{
+    display: flex;
+    margin: 0;
+}
+
+.sujetADN{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-left: 20px;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    border-right: #01538f solid 5px;
+    border-top-right-radius: 2rem ;
+    border-bottom-right-radius: 2rem ;
+    
+}
+
+.sujetIOT{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-right: 20px;
+    width: 50%;
+    border-left: #01538f solid 5px;
+    border-top-left-radius: 2rem ;
+    border-bottom-left-radius: 2rem ;
+    align-items: center;
+    text-align: center;
+}
+
+
+.contenuADN{
+    margin: 15px;
+    padding: 10px;
+    background-color: #01538f;
+    color: white;
+    border-radius: 2rem;
+    box-shadow: 49px 49px 24px 0px rgba(0,0,0,0.1);
+}
+
+.contenuIOT{
+    margin: 15px;
+    padding: 10px;
+    background-color: #01538f;
+    color: white;
+    border-radius: 2rem;
+    box-shadow: 49px 49px 24px 0px rgba(0,0,0,0.1);
+}
+
+.indications{
+    display: flex;
+    margin: auto;
+    bottom: 100%;
+}
+
+.noteScien{
+    height: 70vh;
+    width: 90%;
+    border-radius: 2rem;
+}
+
+p{
+    color: white;
+}
+
+li{
+    color: white;
+}
+
+.articles{
+    margin: auto 100px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+
+.article:hover{
+    transform:translateY(-30px) ;
+    --x: 100%;
+}
+
+.article{
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+.cnrs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 10px;
+    border-radius: 2rem;
+    background-color: #2e72a1;
+}
+
+.oracle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 10px;
+    border-radius: 2rem;
+    background-color: #2e72a1;
+}
+
+.microsoft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 10px;
+    border-radius: 2rem;
+    background-color: #2e72a1;
+}
+
+.noteIot{
+    height: 70vh;
+    width: 90%;
+    border-radius: 2rem;
+    margin: 15px;
+}
+
+.texteBearingPoint{
+    margin: 10px;
+}
+
+.bearingpoint{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 10px;
+    border-radius: 2rem;
+    background-color: #2e72a1;
+}
+
+.contenuBearingPoint{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.splunk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 10px;
+    border-radius: 2rem;
+    background-color: #2e72a1;
+}
+
+.logoCNRS{
+    margin: 5px;
+}
+
+.logoMicrosoft{
+    margin: 10px;
+    border-radius: 1rem;
+}
+
+.logoSplunk{
+    border-radius: 1rem;
+    margin: 5px -20px;
+}
+
+.logoBearingPoint{
+    border-radius: 1rem;
+    margin: 15px;
+}
+
+.logoORACLE{
+    margin: 10px;
+    border-radius: 1rem;
+}
+
+.vulgaADN{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 10px;
+    border-radius: 2rem;
+    background-color: #2e72a1;
+}
+
+.logoLaCroix{
+    margin: 15px;
+    border-radius: 10px;
+}
+
+
+.senat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 20px;
+    border-radius: 2rem;
+    background-color: #2e72a1;
+    color: white;
+}
+
+.senatContenu{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.logoSenat{
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 839px) {
+   
+    .tableauComp{
+        margin: 75px auto;
+        width: 80vw;
+    }
+
+    .tableau{
+        margin: 30px;
+    width: 60vw;
+    height: 80vh;
+    border-radius: 2rem;   
+    }
+
+    .veille{
+        display: flex;
+        flex-direction: column;
+        gap: 200px;
+    }
+
+    .noteScien{
+        height: 20vh;
+    }
+
+    .sujetADN{
+        width: 80%;
+    }
+
+    .sujetIOT{
+        width: 80%;
+    }
+
+    .noteIot{
+        height: 20vh;
+    }
+}
