@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html>
+  <!--HEADER-->
+  <head>
+    <meta name="viewport" charset="UTF-8", content="initial-scale=1, width=device-width">
+    <title>Jeu MasterMind</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+
+<div class="page">
+
+    <div class="avancement">
+      <div id="badPlacedColors">Couleurs présentes mais mal placées : *Chargement*</div>
+      <div id="rightPlacedColors">Vous avez *chargement* couleurs à la bonne place</div>
+      <div id="historique" name="historique" class="historique">
+        Historique des changements :   
+      </div>
+    </div>
+
+    
+
+    <div class="plateau">
+
+      <div class="tapis">
+
+        <table class="jeu">
+
+          <tr>
+            <td class="case colonne1 ligne1"></td>
+            <td class="case colonne2 ligne1"></td>
+            <td class="case colonne3 ligne1"></td>
+            <td class="case colonne4 ligne1"></td>
+          </tr>
+          
+          <tr>
+            <td class="case colonne1 ligne2"></td>
+            <td class="case colonne2 ligne2"></td>
+            <td class="case colonne3 ligne2"></td>
+            <td class="case colonne4 ligne2"></td>
+          </tr>
+          
+          <tr>
+            <td class="case colonne1 ligne3"></td>
+            <td class="case colonne2 ligne3"></td>
+            <td class="case colonne3 ligne3"></td>
+            <td class="case colonne4 ligne3"></td>
+          </tr>
+          
+          <tr>
+            <td class="case colonne1 ligne4"></td>
+            <td class="case colonne2 ligne4"></td>
+            <td class="case colonne3 ligne4"></td>
+            <td class="case colonne4 ligne4"></td>
+          </tr>
+          
+          <tr>
+            <td class="case colonne1 ligne5"></td>
+            <td class="case colonne2 ligne5"></td>
+            <td class="case colonne3 ligne5"></td>
+            <td class="case colonne4 ligne5"></td>
+          </tr>
+          
+          <tr>
+            <td class="case colonne1 ligne6"></td>
+            <td class="case colonne2 ligne6"></td>
+            <td class="case colonne3 ligne6"></td>
+            <td class="case colonne4 ligne6"></td>
+          </tr>
+          
+          <tr>
+            <td class="case colonne1 ligne7"></td>
+            <td class="case colonne2 ligne7"></td>
+            <td class="case colonne3 ligne7"></td>
+            <td class="case colonne4 ligne7"></td>
+          </tr>
+
+          <tr>
+            <td class="case colonne1 ligne8"></td>
+            <td class="case colonne2 ligne8"></td>
+            <td class="case colonne3 ligne8"></td>
+            <td class="case colonne4 ligne8"></td>
+          </tr>
+          
+          <tr>
+            <td class="case colonne1 ligne9"></td>
+            <td class="case colonne2 ligne9"></td>
+            <td class="case colonne3 ligne9"></td>
+            <td class="case colonne4 ligne9"></td>
+          </tr>
+          
+          <tr>
+            <td class="case colonne1 ligne10"></td>
+            <td class="case colonne2 ligne10"></td>
+            <td class="case colonne3 ligne10"></td>
+            <td class="case colonne4 ligne10"></td>
+          </tr>
+          
+          <tr>
+            <td class="case colonne1 ligne11"></td>
+            <td class="case colonne2 ligne11"></td>
+            <td class="case colonne3 ligne11"></td>
+            <td class="case colonne4 ligne11"></td>
+          </tr>
+
+          <tr>
+            <td class="case colonne1 ligne12"></td>
+            <td class="case colonne2 ligne12"></td>
+            <td class="case colonne3 ligne12"></td>
+            <td class="case colonne4 ligne12"></td>
+          </tr>
+
+          
+
+          
+        <!--
+          <tr>
+            <td class="case reponse1">REPONSE1</td>
+            <td class="case reponse2">REPONSE2</td>
+            <td class="case reponse3">REPONSE3</td>
+            <td class="case reponse4">REPONSE4</td>
+          </tr>-->
+        </table>
+      </div>
+
+      <div class="choix">
+
+        <div class="couleur1">
+          <button id="couleur1" onclick="changeBackgroundColorBlue()">couleur1</button>
+        </div>
+
+        <div class="couleur2">
+          <button id="couleur2" onclick="changeBackgroundColorRed()">couleur2</button>
+        </div>
+
+        <div class="couleur3">
+          <button id="couleur3" onclick="changeBackgroundColorGreen()">couleur3</button>
+        </div>
+
+        <div class="couleur4">
+          <button id="couleur4" onclick="changeBackgroundColorYellow()">couleur4</button>
+        </div>
+
+        <div class="changerCase">
+          <button id="changerCase" onclick="changerCase()">case suivante</button>
+        </div>
+
+        
+
+      </div>
+
+
+      <div class="recommencer">
+        <button id="recommencer" onclick="location.reload(); entierAleatoire(1,4)">Recommencer</button>
+      </div>
+
+      <div class="reglesDuJeu">
+        <button id="reglesDuJeu" onclick="location.href='regles.html';" >Règles du jeu</button>
+      </div>
+
+
+      
+
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html>
+
+<!--NATHAN MILITO-->

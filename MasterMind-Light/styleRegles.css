@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@100&display=swap');
+
+html{
+    background-color: #99D98C;
+    font-family: 'Genos', sans-serif;
+}
+
+.regles{
+    width: 55%;
+    font-size: 30px;
+    display: block;
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin: 15vh auto;
+    border-radius: 2rem ;
+    background-color: #52B69A;
+    filter: drop-shadow(17px 17px 57px #000);
+}
+
+.accueil{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    left: 100%;
+    width: 10%;
+    height: 100%;
+}
+
+.boutton{
+    margin: 30px;
+    width: 100px;
+    align-items: center;
+    padding: 0.7rem 2rem;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3rem;
+}
+
+.boutton2 {
+    border-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+    
+.boutton2:hover {
+    background-color: #131300;
+}
