@@ -93,8 +93,9 @@ h1{
 
 }
 
-.TitreCertif{
+.TitreProjet{
     margin:5px auto;
+    color : white;
 }
 
 .projet ul {
@@ -151,6 +152,20 @@ a:visited{
 
 }
 
+.MasterMind{
+    height: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProjetMasterMind{
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
 
 @media screen and (max-width:769px){
   .ligne{
@@ -197,3 +212,5 @@ a:visited{
   }
 
 }
+
+
