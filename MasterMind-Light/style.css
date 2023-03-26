@@ -179,6 +179,22 @@ button{
     }
 }
 
+@media screen and (max-width:1450px){
+    
+#badPlacedColors{
+    height: 20%;
+    
+}
+
+#rightPlacedColors{
+    height: 20%;
+}
+
+#historique{
+    height: 60%;
+}
+}
+
 @media screen and (max-width:1200px){
     .avancement{
         font-size: 20px;
@@ -188,6 +204,38 @@ button{
 @media screen and (max-width:900px){
     .avancement{
         font-size: 17px;
+    }
+}
+
+@media screen and (max-width:580px){
+    td{
+        width: 100px;
+
+    }
+    .plateau{
+        width: 30vw;
+        min-width: 300px;
+        max-width: 550px;
+    }
+
+    .choix{
+        gap: 5px;
+        margin: 15px;
+    }
+
+    button{
+        height:50px;
+        width: 50px;
+    }
+
+    .changerCase{
+        font-size: 10px;
+    }
+
+    .avancement{
+        
+        height: 900px;
+        width: 60%;
     }
 }
 
