@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('navbar.css');
+
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+
+body{
+    background: #013a63;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.accueil{
+    display: flex;
+    margin: 10px auto 0;
+    width: 100%;
+    gap: 15px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace, black;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.accueil p{
+    margin: auto;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 1%;
+    margin-left: 1%;
+    
+}
+
+a:link{
+    color:white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.galerie{
+    display: flex;
+    border: solid black 1px;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.serie{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: solid red 3px;
+    width: 100%;
+    gap: 30px;
+}
+
+.photos{
+    border: solid green 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.instagram-media{
+    border: solid blue 5px;
+}
