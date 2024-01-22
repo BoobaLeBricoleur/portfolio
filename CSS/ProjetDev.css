@@ -18,26 +18,19 @@ body{
 
 .accueil{
     display: flex;
-
     margin: 10px auto 0;
     width: 100%;
     gap: 15px;
     text-align: center;
     font-family: 'Roboto Mono', monospace, black;
-
     font-size: 20px;
     font-weight: bold;
-
     color: white;
 }
 
 .accueil p{
     margin: auto;
 }
-
-
-
-
 
 ::-webkit-scrollbar {
     width: 0px;
@@ -212,5 +205,3 @@ a:visited{
   }
 
 }
-
-

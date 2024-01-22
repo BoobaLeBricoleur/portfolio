@@ -87,6 +87,7 @@ a:visited{
     /* border: solid black 1px; */
     flex-direction: column;
     gap: 100px;
+    margin-bottom: 120px;
 }
 
 .serie{
@@ -111,6 +112,8 @@ a:visited{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 50px;
 }
 
 .post{
